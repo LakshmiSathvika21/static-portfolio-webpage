@@ -1,0 +1,73 @@
+/* Soft Girly Theme */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b8abab;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4f494a;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+nav {
+    background-color: #090909;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #fff0f6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff6392;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ffdde1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+}
