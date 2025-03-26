@@ -4,59 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Welcome to my portfolio! I am a passionate developer eager to build innovative solutions.</p>
+        <div class="about-container">
+            <img src="my-photo.jpeg" alt="My Picture">
+            <p>Hello! I'm [Your Name], a passionate web developer who loves creating beautiful and functional websites.</p>
+        </div>
     </section>
-    
+
+    <!-- Other Sections -->
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML & CSS</li>
             <li>JavaScript</li>
+            <li>React.js</li>
+            <li>UI/UX Design</li>
         </ul>
     </section>
-    
+
     <section id="certifications">
         <h2>Certifications</h2>
-        <p>List your certifications here.</p>
+        <ul>
+            <li>Web Development Certification</li>
+            <li>React.js Advanced Course</li>
+        </ul>
     </section>
-    
+
     <section id="education">
         <h2>Education</h2>
-        <p>List your educational background here.</p>
+        <p>Bachelor's Degree in Computer Science - [Your University]</p>
     </section>
-    
+
     <section id="projects">
         <h2>Projects</h2>
-        <p>Showcase your projects here.</p>
+        <ul>
+            <li>Portfolio Website</li>
+            <li>E-commerce Web App</li>
+        </ul>
     </section>
-    
+
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: your.email@example.com</p>
+        <p>LinkedIn: linkedin.com/in/yourname</p>
     </section>
-    
-    <footer>
-        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
-    </footer>
+
 </body>
 </html>
