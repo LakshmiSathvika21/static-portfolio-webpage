@@ -1,87 +1,62 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
+    background-color: #e3e3ff;
     margin: 0;
     padding: 0;
-    background-color: #ffcc4d;
-    color: #333;
 }
 
-/* Navigation */
-nav {
+/* Navigation Bar */
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
-    background-color: transparent;
+    background-color: #f8f8f8;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Logo */
 .logo {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
+    color: #333;
 }
 
-nav ul {
+/* Navigation Links */
+.nav-links {
     list-style: none;
     display: flex;
+    gap: 20px;
 }
 
-nav ul li {
-    margin: 0 15px;
+.nav-links li {
+    display: inline;
 }
 
-nav ul li a {
+.nav-links a {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
 }
 
-/* Hero Section */
-.hero {
+.nav-links a:hover {
+    color: #ff5e57;
+}
+
+/* Social Icons */
+.social-icons {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 10%;
-    background: white;
-    border-radius: 20px;
-    margin: 50px auto;
-    width: 80%;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    gap: 15px;
 }
 
-.hero-text {
-    width: 50%;
-}
-
-.hero-text h1 {
-    font-size: 36px;
-}
-
-.hero-text span {
-    color: #ff9900;
-}
-
-.hero-image img {
-    width: 300px;
-    border-radius: 10px;
-}
-
-/* Buttons */
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px 5px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-.btn-yellow {
-    background-color: #ff9900;
-    color: white;
-}
-
-.btn-outline {
-    border: 2px solid #333;
+.social-icons .icon {
+    font-size: 20px;
     color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+    color: #ff5e57;
 }
