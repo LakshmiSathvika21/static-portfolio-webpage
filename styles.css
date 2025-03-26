@@ -4,6 +4,7 @@ body {
     background-color: #e3e3ff;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 /* Navigation Bar */
@@ -13,24 +14,22 @@ body {
     align-items: center;
     background-color: #f8f8f8;
     padding: 25px 50px;
-    margin: 40px auto; /* Centering Navbar */
+    margin: 40px auto;
     width: 85%;
     border: 1px solid #000;
-    border-radius: 80px; /* Rounded Corners */
+    border-radius: 80px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-
 
 /* Logo */
 .logo {
     font-size: 18px;
     font-weight: bold;
     color: #333;
-    white-space: nowrap; /* Prevents text wrapping */
+    white-space: nowrap;
 }
 
-/* Navigation Links - Centered */
+/* Navigation Links */
 .nav-links {
     list-style: none;
     display: flex;
@@ -70,4 +69,111 @@ body {
 
 .social-icons .icon:hover {
     color: #ff5e57;
+}
+
+/* Intro Section */
+.intro-section {
+    background-color: #d5d5ff;
+    padding: 60px 20px;
+    border-radius: 30px;
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    object-fit: cover;
+}
+
+/* Headings */
+h1 {
+    font-size: 40px;
+    color: #000;
+    letter-spacing: -.04em;
+}
+
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Highlighted Text */
+.highlight {
+    color: #ff5e57;
+    font-weight: bold;
+}
+
+.highlight-text {
+    background-color: lightblue;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+    color: #333;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.container {
+    display: flex;
+    height: 50vh; /* Full screen height */
+}
+
+.image-section, .text-section {
+    width: 50%; /* Each section takes half the screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img {
+    width: 80%; /* Adjust size as needed */
+    height: 415Px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-right: 140px;
+}
+
+.text-section {
+    text-align: center;
+    font-size: 24px;
+    display: block;
+}
+
+
+.heading {
+    font-size: 3vw; /* Scales dynamically */
+    font-weight: bold;
+    white-space: nowrap; /* Keeps heading in one line */
+    line-height: 1.2; /* Proper spacing */
+}
+
+.subtext1 {
+    font-size: 1.2vw; /* Adjusted to align with heading */
+    line-height: 1.5;
+    max-width: 90%; /* Prevents overflow */
+    margin-top: 10px; /* Add spacing between heading and paragraph */
+}
+
+.subtext {
+    font-size: 0.9vw; /* Adjusted to align with heading */
+    line-height: 1.5;
+    max-width: 90%; /* Prevents overflow */
+    margin-top: 10px; /* Add spacing between heading and paragraph */
 }
