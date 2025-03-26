@@ -12,12 +12,15 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #f8f8f8;
-    padding: 15px 30px;
-    margin: 20px auto; /* Centering Navbar */
+    padding: 25px 50px;
+    margin: 40px auto; /* Centering Navbar */
     width: 85%;
-    border-radius: 50px; /* Rounded Corners */
+    border: 1px solid #000;
+    border-radius: 80px; /* Rounded Corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+
 
 /* Logo */
 .logo {
@@ -31,9 +34,10 @@ body {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 30px;
     margin: 0 auto;
-    padding: 0;
+    padding: 5px;
 }
 
 .nav-links li {
@@ -55,11 +59,11 @@ body {
 /* Social Icons */
 .social-icons {
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .social-icons .icon {
-    font-size: 20px;
+    font-size: 25px;
     color: #333;
     transition: color 0.3s ease;
 }
