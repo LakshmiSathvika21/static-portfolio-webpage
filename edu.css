@@ -48,25 +48,26 @@ h1 {
 
 .edu-details h2 {
     font-size: 22px;
-    color: #444;
+    color: #795e79;
+    ;
 }
 
 .edu-details p {
     font-size: 16px;
-    color: #666;
+    color: #ad73ae;
     margin: 5px 0;
 }
 
 .edu-details h3 {
     margin-top: 15px;
     font-size: 18px;
-    color: #333;
+    color: #4b6274;
 }
 
 .edu-details ul {
     list-style-type: square;
     padding-left: 20px;
-    color: #555;
+    color: #ad73ae;
 }
 
 .navbar {
