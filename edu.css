@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f3e8ff;
+    background: linear-gradient(to right, #f3e8ff, #e2abf0);
     text-align: center;
 }
 
@@ -48,7 +49,7 @@ h1 {
 
 .edu-details h2 {
     font-size: 22px;
-    color: #795e79;
+    color: #000;
     ;
 }
 
@@ -61,7 +62,7 @@ h1 {
 .edu-details h3 {
     margin-top: 15px;
     font-size: 18px;
-    color: #4b6274;
+    color: #000;
 }
 
 .edu-details ul {
