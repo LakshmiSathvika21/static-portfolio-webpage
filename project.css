@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f3e8ff, #e2abf0);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.projects-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: rgb(191, 171, 244);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.projects-grid {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Add space between project boxes */
+    margin-top: 20px;
+}
+
+.project-card {
+    background: #ffffff;
+    color: rgb(239, 161, 212);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.projectlink{
+    text-decoration: none;
+    color: #6e5dce;
+    font-weight: bold;
+    display: inline-block; /* Ensure the links behave like block elements */
+    margin-left: auto; /* Push the links to the right */
+    text-align: right; /* Align text to the right */
+}
+
+.project-card h2 {
+    margin-bottom: 10px;
+    color: rgb(154, 37, 154);
+    text-align: left;
+
+}
+.project-card h3 {
+    margin-bottom: 10px;
+    color: rgb(37, 6, 37);
+    text-align: right;
+
+}
+.project-card p {
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.project-card a{
+    color: #d766ed;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 25px 50px;
+    margin: 40px auto;
+    width: 85%;
+    border: 1px solid #000;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff5e57;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons .icon {
+    font-size: 25px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+    color: #ff5e57;
+}
+.header {
+    color: #000;
+}
