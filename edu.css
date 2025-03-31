@@ -132,24 +132,92 @@ h1 {
 
 .social-icons .icon:hover {
     color: #ff5e57;
+
 }
 
+/* Education Details */
+.edu-container {
+    background: #d5d5ff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Subjects + Graduation Icon Alignment */
 .subjects {
-    width: 100%; /* Each section takes half the screen */
     display: flex;
-    align-items: left;
-    justify-content: center;
-    font-size: 15px;
-    margin-right: 100px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
 }
 
+/* Subjects List */
+.subjects ul {
+    /* list-style: none; */
+    padding: 0;
+    font-size: 16px;
+    text-align: left;
+    flex: 1;
+}
+
+.subjects ul li {
+    padding: 5px 0;
+    color: #ad73ae;
+    font-weight: bold;
+}
+
+/* Graduation Icon Positioned Beside Subjects */
 .grad-icon {
-    width: 100%; /* Each section takes half the screen */
-    align-items: left;
-    justify-content: center;
-    text-align: right;
-    font-size: 100px;
-    display: block;
-    margin-left: 100px;
+    font-size: 50px;
+    color: #0c0c0c;
+    text-align: center;
+    flex-shrink: 0;
 }
 
+/* * Responsive Design */
+@media screen and (max-width: 768px) {
+    
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 5%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-section, .text-section {
+        width: 100%;
+    }
+
+    .image-section img {
+        margin-right: 0;
+        max-width: 200px;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .subtext1 {
+        font-size: 1rem;
+    }
+
+    .subtext {
+        font-size: 0.9rem;
+    }
+}

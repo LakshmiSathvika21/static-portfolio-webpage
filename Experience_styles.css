@@ -176,3 +176,47 @@ p {
     max-width: 90%; /* Prevents the content from stretching too wide */
     line-height: 1.6; /* Improves readability */
 }
+
+/* * Responsive Design */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 5%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-section, .text-section {
+        width: 100%;
+    }
+
+    .image-section img {
+        margin-right: 0;
+        max-width: 200px;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .subtext1 {
+        font-size: 1rem;
+    }
+
+    .subtext {
+        font-size: 0.9rem;
+    }
+}
